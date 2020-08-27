@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stage": "NODE_ENV=stage pm2 start index.js",
-    "prod": "NODE_ENV=prod pm2 start index.js"
+    "stage": "NODE_ENV=stage pm2 start index.js --name=stage",
+    "prod": "NODE_ENV=prod pm2 start index.js --name=prod"
   },
   "author": "",
   "license": "ISC",
