@@ -14,7 +14,7 @@ module.exports = {
     deploy: {
         stage: {
             user: 'anubhuti-sh',
-            host: '127.0.0.1',
+            host: '127.0.0.1:3000',
             ref: 'origin/master',
             repo: 'https://github.com/anubhuti-sh/pm2_test.git',
             path: '/home/anu/Projects/monkeyLabs/pm2_test',
@@ -24,7 +24,7 @@ module.exports = {
         },
         production: {
             user: 'anubhuti-sh',
-            host: '127.0.0.1',
+            host: '127.0.0.1:3001',
             ref: 'origin/production',
             repo: 'https://github.com/anubhuti-sh/pm2_test.git',
             path: '/home/anu/Projects/monkeyLabs/pm2_test',
