@@ -14,14 +14,20 @@ module.exports = {
     deploy: {
         stage: {
             user: 'anubhuti-sh',
+            host: '127.0.0.1',
             ref: 'origin/master',
+            repo: 'https://github.com/anubhuti-sh/pm2_test.git',
+            path: '/home/anu/Projects/monkeyLabs/pm2_test',
             env: {
                 NODE_ENV: 'stage'
             }
         },
         production: {
             user: 'anubhuti-sh',
+            host: '127.0.0.1',
             ref: 'origin/production',
+            repo: 'https://github.com/anubhuti-sh/pm2_test.git',
+            path: '/home/anu/Projects/monkeyLabs/pm2_test',
             env: {
                 NODE_ENV: 'prod'
             }
